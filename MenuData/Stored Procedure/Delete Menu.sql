@@ -1,0 +1,6 @@
+﻿CREATE PROCEDURE [dbo].[Delete Menu]
+	 @Id INT
+AS
+BEGIN
+    DELETE FROM Menus WHERE Id = @Id
+END
